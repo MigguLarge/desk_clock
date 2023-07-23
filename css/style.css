@@ -16,6 +16,8 @@
 }
 
 body {
+  background-color: #fcf9e8;
+  color: #333333;
   height: 100vh;
   height: 100lvh;
 }
@@ -23,8 +25,6 @@ body {
 .main {
   height: 100%;
   display: grid;
-  background-color: #fcf9e8;
-  color: #333333;
   grid-template-columns: 1fr 1fr;
   padding: 0 1rem 0 1rem;
 }

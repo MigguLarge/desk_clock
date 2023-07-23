@@ -17,6 +17,8 @@
 }
 
 body {
+    background-color: hsl(50, 80%, 95%);
+    color: hsl(0, 0%, 20%);
     height: 100vh;
     height: 100lvh;
 }
@@ -24,8 +26,6 @@ body {
 .main {
     height: 100%;
     display: grid;
-    background-color: hsl(50, 80%, 95%);
-    color: hsl(0, 0%, 20%);
     grid-template-columns: 1fr 1fr;
     padding: 0 1rem 0 1rem;
 }
