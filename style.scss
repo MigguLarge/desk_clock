@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'MaruBuri-Regular';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/MaruBuri-Regular.woff') format('woff');
+    font-family: 'LOTTERIACHAB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/LOTTERIACHAB.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
@@ -11,18 +11,23 @@
 }
 
 :root {
-    font-family: Maruburi-Regular serif;
+    font-family: Roboto Slab, serif;
+    font-weight: 300;
     font-size: 2em;
 }
 
+body {
+    height: 100vh;
+    height: 100lvh;
+}
+
 .main {
+    height: 100%;
     display: grid;
     background-color: hsl(50, 80%, 95%);
     color: hsl(0, 0%, 20%);
-    width: 100vw;
-    height: 100vh;
-
     grid-template-columns: 1fr 1fr;
+    padding: 0 1rem 0 1rem;
 }
 
 .main__block {
@@ -38,7 +43,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    font-family: 'LOTTERIACHAB';
 }
 
 .clock__time {
@@ -46,5 +51,12 @@
 }
 
 .clock__date {
-    font-size: 0.5rem;
+    position: relative;
+    font-size: 0.75rem;
+    top: -.5rem;
 }
+
+.youtube__iframe {
+    aspect-ratio: 16/9;
+    width: 100%;
+}  
